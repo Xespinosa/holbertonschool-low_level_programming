@@ -5,7 +5,7 @@
  * return:0
  */
 
-int main () {
+int main(void) {
 	char charType;
 	int intType;
 	long int longintType;
