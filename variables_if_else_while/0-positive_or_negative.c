@@ -14,17 +14,17 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	 if (n=0)
         {
-                echo="is zero \n";
+                echois zero \n";
 
 	}
 		else if (n>0)
                 {
-                        echo="is positive \n";
+                        echo"is positive \n";
 
 		}   
 		   	else if (n<0)
                         {
-                                echo="is negative \n";
+                                echo"is negative \n";
                         }
 
 	return (0);
