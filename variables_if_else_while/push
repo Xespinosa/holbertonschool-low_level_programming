@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line."
+git commit -m "Write a program that prints the alphabet in lowercase, followed by a new line."
 git push
