@@ -4,9 +4,7 @@
 
 /**
  * lastDigit - find last number
- * main - print last number of a variable
- * Return: 0
- * n: random number
+ * @param n random number
  */
 
 int lastDigit(int n)
@@ -16,6 +14,11 @@ int lastDigit(int n)
 	return (lastDigit);
 
 }
+
+/**
+ * main - prints the last digit
+ * Return: always 0
+ */
 
 int main(void)
 {
