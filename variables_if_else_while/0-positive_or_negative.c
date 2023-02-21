@@ -12,15 +12,15 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
- 	if (n>0)
+ 	if (n>0);
 	{
 		"is positive \n";
 	}   
-		   	else if (n<0)
+		   	else if (n<0);
                         {
                                 "is negative \n";
                         }
-				 else (n=0)
+				 else; 
         			{
                 			"is zero \n";
 
