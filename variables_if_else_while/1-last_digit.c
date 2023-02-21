@@ -5,12 +5,15 @@
 /**
  * main - print last number of a variable
  * Return: 0
+ * lastDigit - function to find the last number
+ * n: random number
  */
 
 int lastDigit(int n)
 {
 	int lastDigit = n % 10;
 	return (lastDigit);
+
 }
 
 int main(void)
