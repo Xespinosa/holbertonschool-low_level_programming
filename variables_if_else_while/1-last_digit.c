@@ -6,9 +6,8 @@
  * lastDigit - find last number
  * Return: 0
  */
-
 /**
- * @param int n random number
+ * @parameter n random number
  */
 
 
