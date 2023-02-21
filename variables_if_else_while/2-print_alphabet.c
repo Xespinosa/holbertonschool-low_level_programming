@@ -2,17 +2,17 @@
 
 /**
  * main print the alphabet
- * Return: 0
+ *
+ * Return: Always 0 (success)
  */
-
 int main(void)
 {
-	char alph;
+	char t;
 
-	for (alph = "a"; alph <= "z"; alph++)
+	for (t = "a";t <= "z"; t++)
 	{
-	putchar(alph);
+		putchar(t);
 	}
-
+	
 	return (0);
 }
