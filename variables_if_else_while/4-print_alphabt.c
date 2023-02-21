@@ -7,20 +7,16 @@
 int main(void)
 {
 	char t;
-	
-	if ((t != 'e') & (t != 'q'))
+
+for (t = 'a'; t <= 'z'; t++)
+{
+	putchar(t);
+
+	if ((t == 'e') & (t == 'q'))
 	{
-
-		for (t = 'a'; t <= 'z'; t++)
-		{
-			putchar(t);
-		}
-
-		else
-		{
 		break;
-		}
 	}
+}
 
 	putchar('\n');
 
