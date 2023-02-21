@@ -5,6 +5,7 @@
 /**
  * lastDigit - find last number
  * @param n random number
+ * Return: 0
  */
 
 int lastDigit(int n)
