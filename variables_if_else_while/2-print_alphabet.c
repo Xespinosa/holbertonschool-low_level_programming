@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	char alph = "[a - z]";
+	char alph = [a - z];
 
 	putchar (alph);
 
