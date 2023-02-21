@@ -4,7 +4,7 @@
 
 /**
  * lastDigit - find last number
- * @n: random number  variable 
+ * @n: random number  variable
  * Return: 0
  */
 int lastDigit(int n)
