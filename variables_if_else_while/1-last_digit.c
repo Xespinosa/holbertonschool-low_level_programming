@@ -3,14 +3,14 @@
 #include <time.h>
 
 /**
- * main - print whether the last number of a variable is greater than 5, zero or in between
+ * main - print last number of a variable
  * Return: 0
  */
 
-int lastDigit (int n)
+int lastDigit(int n)
 {
 	int lastDigit = n % 10;
-	return lastDigit;
+	return (lastDigit);
 }
 
 int main(void)
@@ -21,7 +21,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	last_digit = lastDigit(n);
 	printf("Last digit of %d is %d and is ", n, last_digit);
-	if ((last_digit < 6)&(last_digit != 0))
+	if ((last_digit < 6) & (last_digit != 0))
 	{
 		printf("less than 6 and not 0\n");
 	}
