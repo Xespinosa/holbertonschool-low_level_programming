@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-if (n=0)
+int main(if (n=0))
 {
 	prinf"is zero \n";
 
