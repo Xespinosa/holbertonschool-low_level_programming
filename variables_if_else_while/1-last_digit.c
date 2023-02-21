@@ -4,7 +4,7 @@
 
 /**
  * lastDigit - find last number
- * @param n random number
+ * @param int n random number
  * Return: 0
  */
 
