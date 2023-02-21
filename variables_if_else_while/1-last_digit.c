@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 
 /**
  * main - print whether the last number of a variable is greater than 5, zero or in between
@@ -31,7 +30,7 @@ int main(void)
 	}
 	else
 	{
-		printd("0");
+		printf("0");
 	}
 	return (0);
 }
