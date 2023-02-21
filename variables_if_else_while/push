@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Numberz"
+git commit -m "backwards alphabet"
 git push
