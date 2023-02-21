@@ -7,9 +7,11 @@
 
 int main(void)
 {
-	char alph = [a - z];
+	char alph = "a";
 
-	putchar (alph);
-
+	for (alph = "a"; alph <= "z"; alph++)
+	{
+	putchar(alph);
+	}
 	return (0);
 }
