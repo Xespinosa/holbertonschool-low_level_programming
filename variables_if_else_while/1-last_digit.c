@@ -4,9 +4,13 @@
 
 /**
  * lastDigit - find last number
- * @param int n random number
  * Return: 0
  */
+
+/**
+ * @param int n random number
+ */
+
 
 int lastDigit(int n)
 {
