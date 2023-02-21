@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
+ * lastDigit - find last number
  * main - print last number of a variable
  * Return: 0
- * lastDigit - function to find the last number
  * n: random number
  */
 
