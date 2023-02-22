@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "alphabet 10 times"
+git commit -m "lowercase \?"
 git push
