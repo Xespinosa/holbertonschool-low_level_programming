@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "HEX"
+git commit -m "combos"
 git push
