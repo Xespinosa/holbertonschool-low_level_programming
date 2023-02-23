@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "return the last digit"
+git commit -m "last 24 like my name is jack bauer"
 git push
