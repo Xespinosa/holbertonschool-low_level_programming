@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "postive, negative or zero\?"
+git commit -m "give me the absolute value"
 git push
