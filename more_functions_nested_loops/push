@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "is digit"
+git commit -m "multiplication"
 git push
