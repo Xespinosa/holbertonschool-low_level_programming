@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "print all nums except 2 and 4"
+git commit -m "print all nums up to 14"
 git push
