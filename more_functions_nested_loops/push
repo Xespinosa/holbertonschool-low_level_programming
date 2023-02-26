@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "print square"
+git commit -m "prints fizz Buzz program"
 git push
