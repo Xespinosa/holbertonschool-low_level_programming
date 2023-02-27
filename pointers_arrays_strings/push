@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "string length counter"
+git commit -m "string length print"
 git push
