@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "print every other character in a string"
+git commit -m "print the second half of a string"
 git push
