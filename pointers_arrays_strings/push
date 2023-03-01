@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "copy and move part of a string"
+git commit -m "converts a string into an integer"
 git push
