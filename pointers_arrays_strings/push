@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "concatanate two strings"
+git commit -m "concatanate n characters of two strings"
 git push
