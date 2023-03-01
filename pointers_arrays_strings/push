@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "converts a string into an integer"
+git commit -m "concatanate two strings"
 git push
