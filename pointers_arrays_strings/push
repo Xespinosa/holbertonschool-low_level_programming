@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "search for a specific charcter in a string"
+git commit -m "strspn"
 git push
