@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "strpbrk"
+git commit -m "print chess board"
 git push
