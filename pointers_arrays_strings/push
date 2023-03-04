@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "change lowercase to uppercase in array"
+git commit -m "capitalize every word"
 git push
