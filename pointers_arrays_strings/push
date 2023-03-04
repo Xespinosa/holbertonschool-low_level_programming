@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "copy specific byte"
+git commit -m "search for a specific charcter in a string"
 git push

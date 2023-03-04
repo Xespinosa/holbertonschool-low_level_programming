@@ -33,3 +33,5 @@ void revers_array(int *a, int n);
 char *string_toupper(char *str);
 
 char *_memcpy(char *dest, char *src, unsigned int n);
+
+char *_strchr(char *s, char c);
