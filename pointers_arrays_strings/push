@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "swap places along an array"
+git commit -m "change lowercase to uppercase in array"
 git push

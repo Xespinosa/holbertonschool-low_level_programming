@@ -30,4 +30,4 @@ int _strcmp(char *s1, char *s2);
 
 void revers_array(int *a, int n);
 
-
+char *string_toupper(char *str);
