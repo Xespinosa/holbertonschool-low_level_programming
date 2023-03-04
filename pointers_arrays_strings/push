@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "print chess board"
+git commit -m "print sum of numbers in diagonal"
 git push
