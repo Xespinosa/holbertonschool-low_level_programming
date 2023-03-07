@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "program to get a string length"
+git commit -m "program to calculate the factorial of a number"
 git push
