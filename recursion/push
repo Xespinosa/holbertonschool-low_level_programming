@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "program to print in reverse using recursion"
+git commit -m "program to get a string length"
 git push
