@@ -9,7 +9,7 @@
 
 int find_root(int n, int k)
 {
-	if ( k * k > n)
+	if (k * k > n)
 	{
 		return (-1);
 	}
@@ -22,7 +22,7 @@ int find_root(int n, int k)
 }
 
 /**
- * _sqrt_recursion - find square root 
+ * _sqrt_recursion - find square root
  * @n: number to find the square root for
  * Return: square root
  */
