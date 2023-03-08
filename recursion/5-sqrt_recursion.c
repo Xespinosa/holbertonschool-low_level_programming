@@ -7,7 +7,7 @@
  * Return: return the square root of a number
  */
 
-int find_root(int k, int n)
+int find_root(int n, int k)
 {
 	if ( k * k > n)
 	{
