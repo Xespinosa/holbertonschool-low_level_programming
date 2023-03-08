@@ -11,11 +11,11 @@ int find_root(int k, int n)
 {
 	if ( k * k > n)
 	{
-		return (-1)
+		return (-1);
 	}
 	if (k * k == n)
 	{
-		return (r)
+		return (r);
 	}
 
 	return (find_root(n, k + 1);
