@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "program to find the square root of a numbe"
+git commit -m "program to check if it is a prime number"
 git push
