@@ -3,7 +3,7 @@
 /**
  * main - entry point
  * @argv: string to be passed
- * *argc: string total length
+ * @argc: string total length
  * Return: 0 success
  */
 
