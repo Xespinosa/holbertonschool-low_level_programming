@@ -3,10 +3,11 @@
 /**
  * main - entry point
  * @argv: string to be passed
+ * *argc: string total length
  * Return: 0 success
  */
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
