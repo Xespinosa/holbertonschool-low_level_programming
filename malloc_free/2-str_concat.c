@@ -28,8 +28,8 @@ char *str_concat(char *s1, char *s2)
 	if (cc == NULL)
 		return (NULL);
 
-	memcpy(c, s1, len1);
-	memcpy(c + len1, s2, len2 + 1);
+	memcpy(cc, s1, len1);
+	memcpy(cc + len1, s2, len2 + 1);
 
 	return (cc);
 }
