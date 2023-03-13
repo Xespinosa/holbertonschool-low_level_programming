@@ -4,7 +4,7 @@
 
 /**
  * _strdup - suplicate the contents of a string
- * *str: the string to be duplicated
+ * @str: the string to be duplicated
  * Return: NULL on failure or pointer to the string on success
  */
 
@@ -17,7 +17,7 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	len = strlen(str);
+	len = strlen(str) + 1;
 	dup = malloc(len);
 
 	if (dup == NULL)
