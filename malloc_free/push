@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "duplicate an array with the same size"
+git commit -m "concatanate two strings"
 git push
