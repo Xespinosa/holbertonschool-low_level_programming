@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "creating an array of variable size using malloc"
+git commit -m "duplicate an array with the same size"
 git push
