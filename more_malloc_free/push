@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m "malloc and return 98"
+git push
