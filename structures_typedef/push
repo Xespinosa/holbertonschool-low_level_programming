@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "strcture practice"
+git commit -m "initialize a structure"
 git push
