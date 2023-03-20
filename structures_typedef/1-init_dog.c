@@ -12,7 +12,7 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (struct dog *d == NULL)
+	if (d == NULL)
 		break;
 
 	d->name = name;
