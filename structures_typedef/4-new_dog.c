@@ -7,7 +7,7 @@
  * @name: dog name
  * @age: dog age
  * @owner: owner name
- * Return: NULL
+ * Return: pointer on success NULL if fail
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -16,12 +16,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	ndog = malloc(sizeof(struct dog));
 	if (ndog == NULL)
-	{
-		free(ndog);
-		return (NULL);
-	}
-
-	if (name == NULL)
 	{
 		free(ndog);
 		return (NULL);
@@ -37,12 +31,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 		strcpy(ndog->name, name);
 
 	ndog->age = age;
-
-	if (owner == NULL)
-	{
-		free(ndog);
-		return (NULL);
-	}
 	ndog->owner = malloc(strlen(owner) + 1);
 	if (ndog->owner == NULL)
 	{
