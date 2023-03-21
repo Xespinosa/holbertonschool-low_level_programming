@@ -32,7 +32,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(ndog->name);
 		return (NULL);
 	}
-	strcpy(ndog->name, name);
+	else
+		strcpy(ndog->name, name);
 
 	ndog->age = age;
 
@@ -48,7 +49,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(ndog->owner);
 		return (NULL);
 	}
-	strcpy(ndog->owner, owner);
+	else
+		strcpy(ndog->owner, owner);
 
 	return (ndog);
 }
