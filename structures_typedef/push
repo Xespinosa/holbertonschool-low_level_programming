@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "initialize a structure"
+git commit -m "creating a new dog"
 git push
