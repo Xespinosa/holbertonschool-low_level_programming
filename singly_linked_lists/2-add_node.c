@@ -27,7 +27,7 @@ list_t *add_node(list_t **head, const char *str)
 		i++;
 	}
 	kip->len = i;
-	new->kip = *head;
+	kip->next = *head;
 	*head = kip;
 	return (kip);
 }
