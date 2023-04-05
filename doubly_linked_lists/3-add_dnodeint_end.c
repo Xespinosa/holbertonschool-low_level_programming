@@ -1,13 +1,13 @@
 #include "lists.h"
 
 /**
- * add_dlistint_end - add node to end
+ * add_dnodeint_end - add node to end
  * @head: start point
  * @n: value
  * Return: new node
  */
 
-dlistint_t *add_dlistint_end(dlistint_t **head, const int n)
+dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *newNode, *temp;
 
