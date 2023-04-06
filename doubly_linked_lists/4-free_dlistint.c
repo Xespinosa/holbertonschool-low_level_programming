@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
- * free_list -free the list
+ * free_dlistint - free the list
  * @head: start of list
  */
 
-void free_list(list_t *head)
+void free_dlistint(dlistint_t *head)
 {
 	while (head != NULL)
 	{
