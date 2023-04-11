@@ -9,18 +9,18 @@
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	int k = 0;
+	int i = 0;
 
 	while (n > 0 || m > 0)
 	{
-		int tmp1 = (n & 1);
-		int tmp2 = (m & 2);
+		int t1 = (n & 1);
+		int t2 = (m & 1);
 
-		if (tmp1 != tmp2)
-			k++;
+		if (t1 != t2)
+			i++;
 
 		n >>= 1;
 		m >>= 1;
 	}
-	return (k);
+	return (i);
 }
