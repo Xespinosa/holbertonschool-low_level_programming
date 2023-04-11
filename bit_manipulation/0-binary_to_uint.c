@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- N* binary_to_uint - change a binary number to decimal
+ * binary_to_uint - change a binary number to decimal
  * @b: binary number
  * Return: the changed number
  */
