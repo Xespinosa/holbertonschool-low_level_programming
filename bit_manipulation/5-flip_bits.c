@@ -13,8 +13,8 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 
 	while (n > 0 || m > 0)
 	{
-		int tmp1 = n & 1;
-		int tmp2 = m & 2;
+		int tmp1 = (n & 1);
+		int tmp2 = (m & 2);
 
 		if (tmp1 != tmp2)
 			k++;
