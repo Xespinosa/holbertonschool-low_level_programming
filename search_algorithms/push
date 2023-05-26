@@ -1,4 +1,4 @@
 #!/bin/bash
-git add .
-git commit -m "uploading inital files for search algorithms "
+git add 1-binary.c
+git commit -m "binary files"
 git push
